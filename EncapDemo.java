@@ -14,10 +14,13 @@ package oops.demo;
 
 public class EncapDemo {
 
+	
+	// 3 private fields (private variables)
 	private int ssn;
 	private String empName;
 	private int empAge;
 
+	// 3 getter methods	
 	public int getSsn() {
 		return ssn;
 	}
@@ -30,6 +33,7 @@ public class EncapDemo {
 		return empName;
 	}
 
+	// 3 setter methods	
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
@@ -42,6 +46,9 @@ public class EncapDemo {
 		this.empAge = empAge;
 	}
 
+
+	
+	// publishing those 3 private variables (fields) through the main method (a public method)		
 	public static void main(String[] args) {
 
 		EncapDemo ed = new EncapDemo();
